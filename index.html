@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhancing HTML5 Content & Mastering Forms</title>
+  
+
+<body>
+    <header>
+        <h1>Unordered Lists</h1>
+        <h2>Skills in Demand for Gen Z in 2025</h2>
+        <p>In 2025, the job market is expected to be highly competitive, and Gen Z will need to equip themselves with a diverse set of skills to stand out. Here are some of the key skills that will be in demand:</p>
+    </header>
+      <br>
+        <ul>
+            <li style="font-weight: bold;">Digital Literacy & Tech Fluency:</li>
+                <ul>
+                    <li>Proficiency in digital tools and platforms.</li>
+                    <li>Understanding of data privacy and security.</li>
+                    <li>Ability to adapt to new technologies.</li>
+                </ul>
+            </li>
+        </ul>
+            <br>
+        
+            <ul>
+            <li style="font-weight: bold">Emotional Intelligence:</li>
+            <ul>
+                <li>Ability to recognize and manage one's own emotions.</li>
+                <li>Self-awareness and self-regulation.</li>
+                <li>Empathy and social skills.</li>
+                <li>Ability to handle interpersonal relationships judiciously and empathetically.</li>
+            </ul>
+        </ul>
+            <br>
+            
+        <ul>
+            <li style="font-weight: bold">Critical Thinking & Problem Solving:</li>
+            <ul>
+                <li>Ability to analyze complex problems.</li>
+                <li>Creativity in finding solutions.</li>
+                <li>Collaboration with others to solve issues.</li>
+            </ul>
+        </ul>
+            <br>
+
+        <ul>
+            <li style="font-weight: bold;">Creativity & Innovation:</li>
+            <ul>
+                <li>Ability to generate new ideas and concepts.</li>
+                <li>Ability to think outside the box.</li>
+                <li>Collaboration with others to generate new ideas.</li>
+            </ul>
+        </ul>
+            <br>
+
+        <ul>
+            <li style="font-weight: bold;">Communication & Collaboration:</li>
+            <ul>
+                <li>Effective verbal and written communication skills.</li>
+                <li>Ability to work well in teams.</li>
+                <li>Adaptability to different communication styles.</li>
+            </ul>
+        </ul>
+            <br>
+
+        <h2>Multimedia</h2>
+        <h3>Image</h3>
+         <img src="assets/image.jpg" alt="Skills in Demand for Gen Z" style="width: 70%; height: 800px;">
+        <br>
+            
+            <h3>Audio</h3>
+        <audio controls style="width: 40%;">
+            <source src="1audio/08 Nice Life Problems.mp3" type="audio/mpeg">
+            <br>
+        Your browser does not support the audio element.
+       </audio>
+            <br>
+            <h3>Video</h3>
+       <p>Watch the video below to learn more about the skills in demand for Gen Z in 2025:</p>
+       <br>
+       <video src="3191900-uhd_2560_1440_25fps.mp4" alt="3191900-uhd_2560_1440_25fps.mp4" controls style="width: 70%; height: 300px;"></video>
+           <br>
+
+        <h3>Table</h3>  
+         <table border="1" style="width: 40%; border-collapse: collapse;">
+        <caption style="font-weight: bold;">Skills in Demand for Gen Z - 2025</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Skills</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Insights Per Company</th>
+                <th>Company</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Digital Literacy & Tech Fluency</td>
+                <td>18-24</td>
+                <td>Female</td>
+                <td>Companies are increasingly looking for candidates who are comfortable with technology and can adapt to new digital tools.</td>
+                <td>Deloitte</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Emotional Intelligence</td>
+                <td>18-24</td>
+                <td>Male</td>
+                <td>Employers value candidates who can demonstrate emotional intelligence, including self-awareness and empathy.</td>
+                <td>McKinsey & Company</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Critical Thinking & Problem Solving</td>
+                <td>25-34</td>
+                <td>Female</td>
+                <td>Employers seek individuals who can think critically and solve complex problems effectively.</td>
+                <td>Deloitte</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Creativity & Innovation</td>
+                <td>25-34</td>
+                <td>Male</td>
+                <td>Employers value creativity and the ability to innovate in problem-solving.</td>
+                <td>McKinsey & Company</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Communication & Collaboration</td>
+                <td>35-44</td>
+                <td>Female</td>
+                <td>Employers prioritize strong communication skills and the ability to collaborate effectively with others.</td>
+                <td>Deloitte</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+</body>
+
+
+<form action="https://example.com/submit-form" method="post"> 
+    <h2>Contact Form</h2>
+    <p>Please fill out the form below to get in touch with us:</p>
+    <br>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    <br><br>
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="0"    max="120" required><br><br>
+    <label for="company">Company:</label><br>
+    <input type="text" id="company" name="company" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <input type="password" id="password" name="password" value="" placeholder="Enter your password" required><br><br>
+    <label for="skills">Skills:</label><br>
+    <input type="checkbox" id="digital-literacy" name="skills" value="digital-literacy">
+    <label for="digital-literacy">Digital Literacy & Tech Fluency</label><br>
+    <input type="checkbox" id="emotional-intelligence" name="skills" value="emotional-intelligence">
+    <label for="emotional-intelligence">Emotional Intelligence</label><br>
+    <input type="checkbox" id="critical-thinking" name="skills" value="critical-thinking">
+    <label for="critical-thinking">Critical Thinking & Problem Solving</label><br>
+    <input type="checkbox" id="creativity" name="skills" value="creativity">
+    <label for="creativity">Creativity & Innovation</label><br>
+    <input type="checkbox" id="communication" name="skills" value="communication">
+    <label for="communication">Communication & Collaboration</label><br>
+    <br>
+    <label for="contact-preference">Preferred Contact Method:</label><br>
+    <select id="contact-preference" name="contact-preference" required>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+        <option value="chat">Chat</option>
+    </select>
+    <br><br>    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
